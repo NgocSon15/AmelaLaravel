@@ -2,90 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a6f237-29f1-4e7f-ae51-47c9e5337f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_route/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_route/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_route/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_route/resources/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_route/resources/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_route/resources/views/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_route/resources/views/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_route/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_route/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626686520432</updated>
       <workItem from="1626686530469" duration="5250000" />
-      <workItem from="1626749786699" duration="827000" />
+      <workItem from="1626749786699" duration="1450000" />
     </task>
     <servers />
   </component>
