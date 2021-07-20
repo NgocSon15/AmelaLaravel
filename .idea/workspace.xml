@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79a6f237-29f1-4e7f-ae51-47c9e5337f21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/timezone/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timezone/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vWn3wf5TBNiikSSyopxMLT3ZhS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\dictionary\app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79a6f237-29f1-4e7f-ae51-47c9e5337f21" name="Default Changelist" comment="" />
+      <created>1626686520432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626686520432</updated>
+      <workItem from="1626686530469" duration="5250000" />
+      <workItem from="1626749786699" duration="2125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
