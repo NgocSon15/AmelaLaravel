@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Danh sách khách hàng</h1>
+<a href="/customer/create">Thêm mới</a>
 <table border="1">
     <thead>
     <tr>
@@ -23,7 +24,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a&
+            <a href="/customer/1/show">Xem</a> | <a href="/customer/1/edit">Sửa</a> | <a href="/customer/1/delete">Xóa</a&
         </td>
     </tr>
     <tr>
@@ -32,7 +33,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+            <a href="/customer/2/show">Xem</a> | <a href="/customer/2/edit">Sửa</a> | <a href="/customer/2/delete">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -41,7 +42,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+            <a href="/customer/3/show">Xem</a> | <a href="/customer/3/edit">Sửa</a> | <a href="/customer/3/delete">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -50,7 +51,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+            <a href="/customer/4/show">Xem</a> | <a href="/customer/4/edit">Sửa</a> | <a href="/customer/4/delete">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -59,7 +60,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+            <a href="/customer/5/show">Xem</a> | <a href="/customer/5/edit">Sửa</a> | <a href="/customer/5/delete">Xóa</a>
         </td>
     </tr>
     </tbody>
