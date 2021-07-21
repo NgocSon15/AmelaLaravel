@@ -19,7 +19,7 @@
         <br>
         <input type="text" name="email" class="form-control"/>
         <br>
-        <input type="submit" value="Sửa"/>
+        <input type="submit" value="Thêm"/>
     </form>
 </body>
 </html>

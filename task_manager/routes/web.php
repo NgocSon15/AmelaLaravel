@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\TaskController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,17 +20,19 @@ Route::get('/', function () {
 });
 
 Route::prefix('customer')->group(function () {
-    Route::get('index', 'App\Http\Controllers\CustomerController@index');
+    Route::get('index', [CustomerController::class, 'index']);
 
-    Route::get('create', 'App\Http\Controllers\CustomerController@create');
+    Route::get('create', [CustomerController::class, 'create']);
 
-    Route::post('store', 'App\Http\Controllers\CustomerController@store');
+    Route::post('store', [CustomerController::class, 'store']);
 
-    Route::get('{id}/show', 'App\Http\Controllers\CustomerController@show');
+    Route::get('{id}/show', [CustomerController::class, 'show']);
 
-    Route::get('{id}/edit', 'App\Http\Controllers\CustomerController@edit');
+    Route::get('{id}/edit', [CustomerController::class, 'edit']);
 
-    Route::post('{id}/update', 'App\Http\Controllers\CustomerController@update');
+    Route::post('{id}/update', [CustomerController::class, 'update']);
 
-    Route::get('{id}/delete', 'App\Http\Controllers\CustomerController@delete');
+    Route::get('{id}/delete', [CustomerController::class, 'delete']);
 });
+
+Route::resource('tasks', 'App\Http\Controllers\TaskController');
