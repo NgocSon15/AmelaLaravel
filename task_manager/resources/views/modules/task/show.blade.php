@@ -1,1 +1,1 @@
-<h2>Xem khách hàng: {{$id}}</h2>
+<h2>Xem task: {{$id}}</h2>

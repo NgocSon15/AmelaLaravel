@@ -14,7 +14,12 @@ class TaskController extends Controller
      */
     public function index()
     {
-        return view('modules.task.index');
+        $tasks = [
+            "0" => "Ăn",
+            "1" => "Ngủ",
+            "2" => "Chơi"
+        ];
+        return view('modules.task.index', compact('tasks'));
     }
 
     /**

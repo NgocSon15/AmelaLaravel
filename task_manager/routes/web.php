@@ -32,7 +32,7 @@ Route::prefix('customer')->group(function () {
 
     Route::post('{id}/update', [CustomerController::class, 'update']);
 
-    Route::get('{id}/delete', [CustomerController::class, 'destroy']);
+    Route::get('{id}/delete', [CustomerController::class, 'delete']);
 });
 
 Route::resource('tasks', 'App\Http\Controllers\TaskController');

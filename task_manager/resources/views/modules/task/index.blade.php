@@ -16,41 +16,21 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td>1</td>
-        <td>Nguyễn Văn A</td>
-        <td>
-            <a href="/tasks/1">Xem</a> | <a href="/tasks/1/edit">Sửa</a> | <a href="{{route('tasks.destroy', ['task' => 1])}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Nguyễn Văn B</td>
-        <td>
-            <a href="/tasks/2">Xem</a> | <a href="/tasks/2/edit">Sửa</a> | <a href="{{route('tasks.destroy', ['task' => 2])}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Nguyễn Văn C</td>
-        <td>
-            <a href="/tasks/3">Xem</a> | <a href="/tasks/3/edit">Sửa</a> | <a href="{{route('tasks.destroy', ['task' => 3])}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Nguyễn Văn D</td>
-        <td>
-            <a href="/tasks/4">Xem</a> | <a href="/tasks/4/edit">Sửa</a> | <a href="{{route('tasks.destroy', ['task' => 4])}}">Xóa</a>
-        </td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Nguyễn Văn E</td>
-        <td>
-            <a href="/tasks/5">Xem</a> | <a href="/tasks/5/edit">Sửa</a> | <a href="{{route('tasks.destroy', ['task' => 5])}}">Xóa</a>
-        </td>
-    </tr>
+    @if(count($tasks) == 0)
+        <tr>
+            <td colspan="3">Không có dữ liệu</td>
+        </tr>
+    @else
+        @foreach($tasks as $key => $task)
+            <tr>
+                <td>{{++$key}}</td>
+                <td>{{$task}}</td>
+                <td>
+                    <a href="{{route('tasks.show', ['task' => $key])}}">Xem</a> | <a href="{{route('tasks.edit', ['task' => $key])}}">Sửa</a> | <a href="{{route('tasks.destroy', ['task' => $key])}}">Xóa</a>
+                </td>
+            </tr>
+        @endforeach
+    @endif
     </tbody>
 </table>
 </body>

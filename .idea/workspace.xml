@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a6f237-29f1-4e7f-ae51-47c9e5337f21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/modules/task/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/modules/task/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/modules/task/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/modules/task/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_manager/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_manager/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/task_manager/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +152,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\manage-customer\resources\views\customers" />
       <recent name="C:\xampp\htdocs\laravel\dictionary\app" />
     </key>
   </component>
